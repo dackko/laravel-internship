@@ -31,7 +31,6 @@
                             <tr>
                                 <td>{{ $user->id }}</td>
                                 <td>{{ $user->email }}</td>
-                                <td>{{ $user->user_type }}</td>
                             </tr>
                         @endforeach
                     </tbody>
